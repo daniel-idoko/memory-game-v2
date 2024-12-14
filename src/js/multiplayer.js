@@ -4,7 +4,7 @@ import MuliplayerGameMode from "./multiplayerScript.js"
 import { generateRandomString, joinRoom, removeQueryParameter } from "./utility.js"
 
 
-const serverUrl = "https://memory-game-v2-server.vercel.app"
+const serverUrl = "https://memory-game-v2-server.onrender.com"
 const clientUrl = "https://memory-game-v2-theta.vercel.app"
 const socket = io(serverUrl)
 
