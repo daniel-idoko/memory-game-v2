@@ -4,8 +4,8 @@ import MuliplayerGameMode from "./multiplayerScript.js"
 import { generateRandomString, joinRoom, removeQueryParameter } from "./utility.js"
 
 
-const serverUrl = "http://localhost:3000"
-const clientUrl = "http://localhost:8080"
+const serverUrl = "https://memory-game-v2-server.onrender.com"
+const clientUrl = "memory-game-v2-theta.vercel.app"
 const socket = io(serverUrl)
 localStorage.removeItem("room");
 
